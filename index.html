@@ -305,6 +305,40 @@
         </div>
     </footer>
 
+	<!-- Bootstrap Modal with Form -->
+    <div class="modal fade" id="enquire_form_popup" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content" id="popupform">
+                <div class="modal-header cmcob text">
+                    <h4 class="text-center">ENQUIRE NOW</h4>
+                    <button type="button" class="btn-close bg-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class=" pb-4" style="width:100%;">
+                        <form id="popup-contact-form">
+
+                            <div id="note3"></div>
+
+                            <div class="text-center px-2">
+                                <input type="text" class="form-control mt-3 py-2" name="name" placeholder="Name">
+                                <input type="text" class="form-control mt-3 py-2" name="phone" placeholder="Mobile">
+                                <input type="email" class="form-control mt-3 py-2" name="email" placeholder="Email">
+                                <textarea name="message" cols="30" rows="2" placeholder="Message" class="form-control mt-3 py-2"></textarea>
+                                <div class="col-md-12 col-12 col-md-12 mt-3 btn-container text-center">
+                                    <button id="popup-contact-form-button" class="sbtn">SUBMIT</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- scroll reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
 
