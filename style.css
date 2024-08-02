@@ -868,10 +868,9 @@ font-size:15px;
 }
 
 .modal-content {
-    margin: 5% auto; /* 15% from the top and centered */
-    padding: 155px;
+    margin: 10% auto; /* 15% from the top and centered */
     max-height: 100vh;
-    max-width: 55%;
+    max-width: 30%;
     border-radius: 0.45em;
     animation: slideIn 0.5s; /* Slide in animation */
 }
