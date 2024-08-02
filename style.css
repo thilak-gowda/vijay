@@ -868,10 +868,8 @@ font-size:15px;
 }
 
 .modal-content {
-    background-color: #d79f4c;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 1px solid #888;
     max-height: 100vh;
     max-width: 55%;
     border-radius: 0.45em;
