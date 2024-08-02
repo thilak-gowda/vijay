@@ -509,7 +509,7 @@ span {
     
 .home-img{
     display: flex;
-    justify-content: center !importantg;
+    justify-content: center !important;
     margin-right: 0% !important;
     margin-top: 10%;
     margin-bottom:15%;
@@ -850,3 +850,62 @@ font-size:15px;
       font-size: 1em;
     }
   }
+
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+    animation: fadeIn 0.5s; /* Fade in animation */
+}
+
+.modal-content {
+    background-color: #d79f4c;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    max-height: 100vh;
+    max-width: 55%;
+    border-radius: 0.45em;
+    animation: slideIn 0.5s; /* Slide in animation */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    animation: fadeIn 0.5s; /* Fade in animation */
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#modal-image {
+    width: 100%;
+    height: auto;
+    animation: fadeIn 0.5s; /* Fade in animation */
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-100px); }
+    to { transform: translateY(0); }
+}
