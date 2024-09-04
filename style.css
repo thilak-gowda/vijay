@@ -107,7 +107,11 @@ section {
 }
 
 .home-img img {
-    width: 35vw;
+/*     width: 35vw; */
+
+    width:250px;
+    height:250px;
+    object-fit:cover;
     animation: floatImage 4s ease-in-out infinite;
 }
 
