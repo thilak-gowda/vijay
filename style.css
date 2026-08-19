@@ -109,8 +109,8 @@ section {
 .home-img img {
 /*     width: 35vw; */
 
-    width:250px !important;
-    height:250px;
+    width:750px !important;
+    height:750px;
     object-fit:cover;
     animation: floatImage 4s ease-in-out infinite;
 }
